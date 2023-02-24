@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  tobinetscanner:
+    image: pajastef/tobinetscanner
+    network_mode: host
+    privileged: true
+    command: /bin/bash -c "/etc/init.d/lighttpd start && tail -f /dev/null"
+

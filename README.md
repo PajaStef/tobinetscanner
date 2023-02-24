@@ -1,5 +1,6 @@
 # tobinetscanner
 This is a network scanner that uses Nmap.
+This project was built in PHP, and then put inside a docker image that i created(which is debian with lighttpd and the actual app).
 
 USAGE:
 1. do: git clone https://github.com/PajaStef/tobinetscanner/

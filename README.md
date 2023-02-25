@@ -3,8 +3,11 @@ This is a network scanner that uses Nmap.
 This project was built in PHP, and then put inside a docker image that i created(which is debian with lighttpd and the actual app).
 
 You first need Docker and docker-compose, to install on debian do:
+
 sudo apt install docker.io -y && sudo apt install docker-compose -y
+
 fedora:
+
 sudo dnf install docker -y && sudo dnf install docker-compose -y
 
 NOTE: if your distro isn't listed here just use your distros package manager and install docker and docker-compose.

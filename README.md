@@ -16,7 +16,9 @@ INSTALATION:
 1. do: git clone https://github.com/PajaStef/tobinetscanner/
 2. go into that directory: cd tobinetscanner
 3. do: docker-compose up -d
+
 USAGE:
+
 open up your browser and go to: http://localhost:8080
 
 When you are on the page you have Indiviudal scan which is just for one device, choose type agressive(best) and enter ports and ip.
